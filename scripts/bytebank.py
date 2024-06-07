@@ -42,4 +42,4 @@ class Funcionario:
         return
 
     def __str__(self):
-        return f'Funcionario({self._nome}, {self._data_nascimento}, {self._salario})'
+        return f'Funcionario ({self._nome}, {self._data_nascimento}, {self._salario})'
